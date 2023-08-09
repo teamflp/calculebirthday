@@ -2,7 +2,7 @@
 require_once "functions.php";
 include 'includes/header.php';
 
-calculerAge(); // Appel de la fonction calculerAge() qui est la partie logique de l'application
+calculateAge(); // Appel de la fonction calculateAge() qui est la partie logique de l'application
 
-form(); // Appel de la fonction form() qui affiche le formulaire
+displayForm();  // Appel de la fonction displayForm() qui affiche le formulaire
 include 'includes/footer.php';
